@@ -30,3 +30,6 @@ And then inject this custom middleware in Startup.cs
             app.UseMvc();
         }
 ```
+
+### Note
+*This implementation assumes Client Certificate will always be passed by the client along with Http Request. If you need client certificate negotiation, you will need additional setup.*
